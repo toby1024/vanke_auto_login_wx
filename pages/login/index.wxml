@@ -1,0 +1,13 @@
+<!--pages/login/index.wxml-->
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <input name="input" name="phone" type="text" placeholder="输入你的手机号码" />
+  </view>
+  <view class="section">
+    <input name="input" name="password" type="password" placeholder="输入你的登录密码" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">登录</button>
+  </view>
+</form>

@@ -1,0 +1,7 @@
+<template name="point_list">
+  <view class="tr">
+    <view class="td" style='width:90%'>{{ item.phone }}</view>
+    <view class="td" style='width:110%'>{{ item.format_created_at }}</view>
+    <view class="td" style='width:40%'>{{ item.point }}</view>
+  </view>
+</template>

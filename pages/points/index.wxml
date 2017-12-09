@@ -1,0 +1,11 @@
+<import src="points.wxml" />
+  <view class="table">
+        <view class="tr">
+            <view class="th" style='width:90%'>登录手机</view>
+            <view class="th" style='width:110%'>登录时间</view>
+            <view class="th" style='width:40%'>登录积分</view>
+        </view>
+      <block wx:for="{{ points }}" wx:key="point_table">
+        <template is="point_list" data="{{ item }}"></template>
+      </block>
+  </view>
